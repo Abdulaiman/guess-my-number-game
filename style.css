@@ -124,17 +124,14 @@ h1 {
   color: rgb(100, 96, 96);
 }
 .divv {
-  /* width: 90vh;
-  max-width: 1000px;
-  margin: 0 auto; */
   text-align: center;
 }
 .divv h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 1rem 2rem;
 }
 .divv h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 1rem 2rem;
   align-items: center;
 }
