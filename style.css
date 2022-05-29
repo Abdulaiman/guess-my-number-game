@@ -124,9 +124,9 @@ h1 {
   color: rgb(100, 96, 96);
 }
 .divv {
-  width: 90vh;
+  /* width: 90vh;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto; */
   text-align: center;
 }
 .divv h3 {

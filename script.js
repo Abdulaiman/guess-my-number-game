@@ -8,13 +8,13 @@ let highScore = 0;
 const mainFunction = (classs, messsage) => {
   document.querySelector(classs).textContent = messsage;
 };
-const userName = prompt('input your name here');
+// const userName = prompt('input your name here');
 document.querySelector('.check').addEventListener('click', function () {
   const checkk = Number(document.querySelector('.guess').value);
   if (!checkk) {
     mainFunction('.message', 'No Number Selected');
   } else if (checkk === secNumber) {
-    mainFunction('.message', `${userName} won the game....`);
+    mainFunction('.message', 'you won the game.....');
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
     mainFunction('.number', secNumber);
